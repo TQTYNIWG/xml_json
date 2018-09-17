@@ -1,6 +1,6 @@
 <?php
 $xml=simplexml_load_file('demo.xml');
-var_dump(sub_json($xml,1));
+var_dump(sub_json($xml));
 
 function sub_json($xml=NULL,$state=false){
     if(!empty($xml)){
